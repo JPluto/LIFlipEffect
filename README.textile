@@ -7,8 +7,7 @@ LIFlipEffect is a class which flips from a source to a target window using CoreA
 To use LIFlipEffect, define a controller with outlets to a source and destination window. You can define an action method to perform the flip similar to this one:
 
 
-bc.. 
-- (IBAction)flipToPreferences:(id)sender {
+bc..- (IBAction)flipToPreferences:(id)sender {
 	// don't flip if we're already there...
 	if (self.prefWindow.isVisible) return;
 	
